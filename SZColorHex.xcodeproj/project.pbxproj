@@ -62,13 +62,21 @@
 				5839EDF21FC7C1E20050DA5D /* AppDelegate.m */,
 				5839EDF41FC7C1E20050DA5D /* ViewController.h */,
 				5839EDF51FC7C1E20050DA5D /* ViewController.m */,
+				5839EE071FC7C2A80050DA5D /* Supporting Files */,
+			);
+			path = SZColorHex;
+			sourceTree = "<group>";
+		};
+		5839EE071FC7C2A80050DA5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				5839EDF71FC7C1E20050DA5D /* Main.storyboard */,
 				5839EDFA1FC7C1E20050DA5D /* Assets.xcassets */,
 				5839EDFC1FC7C1E20050DA5D /* LaunchScreen.storyboard */,
 				5839EDFF1FC7C1E20050DA5D /* Info.plist */,
 				5839EE001FC7C1E20050DA5D /* main.m */,
 			);
-			path = SZColorHex;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
