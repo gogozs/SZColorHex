@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5839EDF31FC7C1E20050DA5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839EDF21FC7C1E20050DA5D /* AppDelegate.m */; };
-		5839EDF61FC7C1E20050DA5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839EDF51FC7C1E20050DA5D /* ViewController.m */; };
-		5839EDF91FC7C1E20050DA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5839EDF71FC7C1E20050DA5D /* Main.storyboard */; };
-		5839EDFB1FC7C1E20050DA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5839EDFA1FC7C1E20050DA5D /* Assets.xcassets */; };
-		5839EDFE1FC7C1E20050DA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5839EDFC1FC7C1E20050DA5D /* LaunchScreen.storyboard */; };
-		5839EE011FC7C1E20050DA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839EE001FC7C1E20050DA5D /* main.m */; };
+		5839EE101FC7C4310050DA5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839EE0F1FC7C4310050DA5D /* AppDelegate.m */; };
+		5839EE131FC7C4310050DA5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839EE121FC7C4310050DA5D /* ViewController.m */; };
+		5839EE161FC7C4310050DA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5839EE141FC7C4310050DA5D /* Main.storyboard */; };
+		5839EE181FC7C4320050DA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5839EE171FC7C4320050DA5D /* Assets.xcassets */; };
+		5839EE1B1FC7C4320050DA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5839EE191FC7C4320050DA5D /* LaunchScreen.storyboard */; };
+		5839EE1E1FC7C4320050DA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839EE1D1FC7C4320050DA5D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5839EDEE1FC7C1E20050DA5D /* SZColorHex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZColorHex.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5839EDF11FC7C1E20050DA5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5839EDF21FC7C1E20050DA5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5839EDF41FC7C1E20050DA5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5839EDF51FC7C1E20050DA5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5839EDF81FC7C1E20050DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5839EDFA1FC7C1E20050DA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5839EDFD1FC7C1E20050DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5839EDFF1FC7C1E20050DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5839EE001FC7C1E20050DA5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5839EE0C1FC7C4310050DA5D /* SZColorHexDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZColorHexDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5839EE0E1FC7C4310050DA5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5839EE0F1FC7C4310050DA5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5839EE111FC7C4310050DA5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5839EE121FC7C4310050DA5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5839EE151FC7C4310050DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5839EE171FC7C4320050DA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5839EE1A1FC7C4320050DA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5839EE1C1FC7C4320050DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5839EE1D1FC7C4320050DA5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5839EDEB1FC7C1E20050DA5D /* Frameworks */ = {
+		5839EE091FC7C4310050DA5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +42,7 @@
 		5839EDE51FC7C1E20050DA5D = {
 			isa = PBXGroup;
 			children = (
-				5839EDF01FC7C1E20050DA5D /* SZColorHex */,
+				5839EE0D1FC7C4310050DA5D /* SZColorHexDemo */,
 				5839EDEF1FC7C1E20050DA5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,31 +50,31 @@
 		5839EDEF1FC7C1E20050DA5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5839EDEE1FC7C1E20050DA5D /* SZColorHex.app */,
+				5839EE0C1FC7C4310050DA5D /* SZColorHexDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5839EDF01FC7C1E20050DA5D /* SZColorHex */ = {
+		5839EE0D1FC7C4310050DA5D /* SZColorHexDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5839EDF11FC7C1E20050DA5D /* AppDelegate.h */,
-				5839EDF21FC7C1E20050DA5D /* AppDelegate.m */,
-				5839EDF41FC7C1E20050DA5D /* ViewController.h */,
-				5839EDF51FC7C1E20050DA5D /* ViewController.m */,
-				5839EE071FC7C2A80050DA5D /* Supporting Files */,
+				5839EE0E1FC7C4310050DA5D /* AppDelegate.h */,
+				5839EE0F1FC7C4310050DA5D /* AppDelegate.m */,
+				5839EE111FC7C4310050DA5D /* ViewController.h */,
+				5839EE121FC7C4310050DA5D /* ViewController.m */,
+				5839EE221FC7C4600050DA5D /* Supporting Files */,
 			);
-			path = SZColorHex;
+			path = SZColorHexDemo;
 			sourceTree = "<group>";
 		};
-		5839EE071FC7C2A80050DA5D /* Supporting Files */ = {
+		5839EE221FC7C4600050DA5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5839EDF71FC7C1E20050DA5D /* Main.storyboard */,
-				5839EDFA1FC7C1E20050DA5D /* Assets.xcassets */,
-				5839EDFC1FC7C1E20050DA5D /* LaunchScreen.storyboard */,
-				5839EDFF1FC7C1E20050DA5D /* Info.plist */,
-				5839EE001FC7C1E20050DA5D /* main.m */,
+				5839EE141FC7C4310050DA5D /* Main.storyboard */,
+				5839EE171FC7C4320050DA5D /* Assets.xcassets */,
+				5839EE191FC7C4320050DA5D /* LaunchScreen.storyboard */,
+				5839EE1C1FC7C4320050DA5D /* Info.plist */,
+				5839EE1D1FC7C4320050DA5D /* main.m */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -82,21 +82,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5839EDED1FC7C1E20050DA5D /* SZColorHex */ = {
+		5839EE0B1FC7C4310050DA5D /* SZColorHexDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5839EE041FC7C1E20050DA5D /* Build configuration list for PBXNativeTarget "SZColorHex" */;
+			buildConfigurationList = 5839EE1F1FC7C4320050DA5D /* Build configuration list for PBXNativeTarget "SZColorHexDemo" */;
 			buildPhases = (
-				5839EDEA1FC7C1E20050DA5D /* Sources */,
-				5839EDEB1FC7C1E20050DA5D /* Frameworks */,
-				5839EDEC1FC7C1E20050DA5D /* Resources */,
+				5839EE081FC7C4310050DA5D /* Sources */,
+				5839EE091FC7C4310050DA5D /* Frameworks */,
+				5839EE0A1FC7C4310050DA5D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SZColorHex;
-			productName = SZColorHex;
-			productReference = 5839EDEE1FC7C1E20050DA5D /* SZColorHex.app */;
+			name = SZColorHexDemo;
+			productName = SZColorHexDemo;
+			productReference = 5839EE0C1FC7C4310050DA5D /* SZColorHexDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Song Zhou";
 				TargetAttributes = {
-					5839EDED1FC7C1E20050DA5D = {
+					5839EE0B1FC7C4310050DA5D = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -127,50 +127,50 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5839EDED1FC7C1E20050DA5D /* SZColorHex */,
+				5839EE0B1FC7C4310050DA5D /* SZColorHexDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5839EDEC1FC7C1E20050DA5D /* Resources */ = {
+		5839EE0A1FC7C4310050DA5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5839EDFE1FC7C1E20050DA5D /* LaunchScreen.storyboard in Resources */,
-				5839EDFB1FC7C1E20050DA5D /* Assets.xcassets in Resources */,
-				5839EDF91FC7C1E20050DA5D /* Main.storyboard in Resources */,
+				5839EE1B1FC7C4320050DA5D /* LaunchScreen.storyboard in Resources */,
+				5839EE181FC7C4320050DA5D /* Assets.xcassets in Resources */,
+				5839EE161FC7C4310050DA5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5839EDEA1FC7C1E20050DA5D /* Sources */ = {
+		5839EE081FC7C4310050DA5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5839EDF61FC7C1E20050DA5D /* ViewController.m in Sources */,
-				5839EE011FC7C1E20050DA5D /* main.m in Sources */,
-				5839EDF31FC7C1E20050DA5D /* AppDelegate.m in Sources */,
+				5839EE131FC7C4310050DA5D /* ViewController.m in Sources */,
+				5839EE1E1FC7C4320050DA5D /* main.m in Sources */,
+				5839EE101FC7C4310050DA5D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5839EDF71FC7C1E20050DA5D /* Main.storyboard */ = {
+		5839EE141FC7C4310050DA5D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5839EDF81FC7C1E20050DA5D /* Base */,
+				5839EE151FC7C4310050DA5D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5839EDFC1FC7C1E20050DA5D /* LaunchScreen.storyboard */ = {
+		5839EE191FC7C4320050DA5D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5839EDFD1FC7C1E20050DA5D /* Base */,
+				5839EE1A1FC7C4320050DA5D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -282,29 +282,29 @@
 			};
 			name = Release;
 		};
-		5839EE051FC7C1E20050DA5D /* Debug */ = {
+		5839EE201FC7C4320050DA5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2484Z5XMVT;
-				INFOPLIST_FILE = SZColorHex/Info.plist;
+				INFOPLIST_FILE = SZColorHexDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.songzhou.SZColorHex;
+				PRODUCT_BUNDLE_IDENTIFIER = me.songzhou.SZColorHexDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5839EE061FC7C1E20050DA5D /* Release */ = {
+		5839EE211FC7C4320050DA5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2484Z5XMVT;
-				INFOPLIST_FILE = SZColorHex/Info.plist;
+				INFOPLIST_FILE = SZColorHexDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.songzhou.SZColorHex;
+				PRODUCT_BUNDLE_IDENTIFIER = me.songzhou.SZColorHexDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,11 +322,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5839EE041FC7C1E20050DA5D /* Build configuration list for PBXNativeTarget "SZColorHex" */ = {
+		5839EE1F1FC7C4320050DA5D /* Build configuration list for PBXNativeTarget "SZColorHexDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5839EE051FC7C1E20050DA5D /* Debug */,
-				5839EE061FC7C1E20050DA5D /* Release */,
+				5839EE201FC7C4320050DA5D /* Debug */,
+				5839EE211FC7C4320050DA5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
