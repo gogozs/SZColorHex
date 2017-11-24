@@ -10,4 +10,6 @@
 
 @interface UIColor (SZColorHex)
 
++ (UIColor *)colorFromHex:(NSUInteger)hex;
+
 @end

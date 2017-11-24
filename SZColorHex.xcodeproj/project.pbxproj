@@ -16,7 +16,7 @@
 		5839EE2C1FC7C7D60050DA5D /* SZColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5839EE2A1FC7C7D60050DA5D /* SZColorHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5839EE2F1FC7C7D60050DA5D /* SZColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5839EE281FC7C7D60050DA5D /* SZColorHex.framework */; };
 		5839EE301FC7C7D60050DA5D /* SZColorHex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5839EE281FC7C7D60050DA5D /* SZColorHex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5839EE371FC7C8980050DA5D /* UIColor+SZColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5839EE351FC7C8980050DA5D /* UIColor+SZColorHex.h */; };
+		5839EE371FC7C8980050DA5D /* UIColor+SZColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5839EE351FC7C8980050DA5D /* UIColor+SZColorHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5839EE381FC7C8980050DA5D /* UIColor+SZColorHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839EE361FC7C8980050DA5D /* UIColor+SZColorHex.m */; };
 /* End PBXBuildFile section */
 

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIColor+SZColorHex.h"
 
 //! Project version number for SZColorHex.
 FOUNDATION_EXPORT double SZColorHexVersionNumber;
