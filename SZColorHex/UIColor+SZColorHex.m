@@ -14,9 +14,27 @@
     NSUInteger rmd = 0xFF;
     NSUInteger mask = 0xFF;
     
-    CGFloat b = (color & mask ) / (double)rmd;
-    CGFloat g = ((color >> 8) & mask) / (double)rmd;
-    CGFloat r = ((color >> 16) & mask) / (double)rmd;
+    NSUInteger step = 8;
+    NSUInteger length = 3;
+    CGFloat r, g, b;
+    r = g = b = 0;
+    for (int i = 0; i < length; i++) {
+        NSUInteger offSet = step * i;
+        CGFloat percent = (color >> offSet & mask) / (double)rmd;
+        switch (i) {
+            case 0: {
+                b = percent;
+                break;
+            }
+            case 1: {
+                g = percent;
+                break;
+            }
+            case 2: {
+                r = percent;
+            }
+        }
+    }
     
     return [UIColor colorWithRed:r green:g blue:b alpha:1.0];
 }
