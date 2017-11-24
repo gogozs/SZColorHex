@@ -16,6 +16,8 @@
 		5839EE2C1FC7C7D60050DA5D /* SZColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5839EE2A1FC7C7D60050DA5D /* SZColorHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5839EE2F1FC7C7D60050DA5D /* SZColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5839EE281FC7C7D60050DA5D /* SZColorHex.framework */; };
 		5839EE301FC7C7D60050DA5D /* SZColorHex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5839EE281FC7C7D60050DA5D /* SZColorHex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5839EE371FC7C8980050DA5D /* UIColor+SZColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5839EE351FC7C8980050DA5D /* UIColor+SZColorHex.h */; };
+		5839EE381FC7C8980050DA5D /* UIColor+SZColorHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839EE361FC7C8980050DA5D /* UIColor+SZColorHex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		5839EE281FC7C7D60050DA5D /* SZColorHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SZColorHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5839EE2A1FC7C7D60050DA5D /* SZColorHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZColorHex.h; sourceTree = "<group>"; };
 		5839EE2B1FC7C7D60050DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5839EE351FC7C8980050DA5D /* UIColor+SZColorHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SZColorHex.h"; sourceTree = "<group>"; };
+		5839EE361FC7C8980050DA5D /* UIColor+SZColorHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SZColorHex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				5839EE2A1FC7C7D60050DA5D /* SZColorHex.h */,
+				5839EE351FC7C8980050DA5D /* UIColor+SZColorHex.h */,
+				5839EE361FC7C8980050DA5D /* UIColor+SZColorHex.m */,
 				5839EE2B1FC7C7D60050DA5D /* Info.plist */,
 			);
 			path = SZColorHex;
@@ -136,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5839EE2C1FC7C7D60050DA5D /* SZColorHex.h in Headers */,
+				5839EE371FC7C8980050DA5D /* UIColor+SZColorHex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5839EE381FC7C8980050DA5D /* UIColor+SZColorHex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
