@@ -18,10 +18,19 @@
 		5839EE301FC7C7D60050DA5D /* SZColorHex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5839EE281FC7C7D60050DA5D /* SZColorHex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5839EE371FC7C8980050DA5D /* UIColor+SZColorHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5839EE351FC7C8980050DA5D /* UIColor+SZColorHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5839EE381FC7C8980050DA5D /* UIColor+SZColorHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839EE361FC7C8980050DA5D /* UIColor+SZColorHex.m */; };
+		E43244FD1FCABD420038E63A /* SZColorHexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E43244FC1FCABD420038E63A /* SZColorHexTests.m */; };
+		E43244FF1FCABD420038E63A /* SZColorHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5839EE281FC7C7D60050DA5D /* SZColorHex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		5839EE2D1FC7C7D60050DA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5839EDE61FC7C1E20050DA5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5839EE271FC7C7D60050DA5D;
+			remoteInfo = SZColorHex;
+		};
+		E43245001FCABD420038E63A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5839EDE61FC7C1E20050DA5D /* Project object */;
 			proxyType = 1;
@@ -60,6 +69,9 @@
 		5839EE2B1FC7C7D60050DA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5839EE351FC7C8980050DA5D /* UIColor+SZColorHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SZColorHex.h"; sourceTree = "<group>"; };
 		5839EE361FC7C8980050DA5D /* UIColor+SZColorHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SZColorHex.m"; sourceTree = "<group>"; };
+		E43244FA1FCABD420038E63A /* SZColorHexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZColorHexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43244FC1FCABD420038E63A /* SZColorHexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZColorHexTests.m; sourceTree = "<group>"; };
+		E43244FE1FCABD420038E63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E43244F71FCABD420038E63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43244FF1FCABD420038E63A /* SZColorHex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +106,7 @@
 			children = (
 				5839EE0D1FC7C4310050DA5D /* SZColorHexDemo */,
 				5839EE291FC7C7D60050DA5D /* SZColorHex */,
+				E43244FB1FCABD420038E63A /* SZColorHexTests */,
 				5839EDEF1FC7C1E20050DA5D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +116,7 @@
 			children = (
 				5839EE0C1FC7C4310050DA5D /* SZColorHexDemo.app */,
 				5839EE281FC7C7D60050DA5D /* SZColorHex.framework */,
+				E43244FA1FCABD420038E63A /* SZColorHexTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +154,15 @@
 				5839EE2B1FC7C7D60050DA5D /* Info.plist */,
 			);
 			path = SZColorHex;
+			sourceTree = "<group>";
+		};
+		E43244FB1FCABD420038E63A /* SZColorHexTests */ = {
+			isa = PBXGroup;
+			children = (
+				E43244FC1FCABD420038E63A /* SZColorHexTests.m */,
+				E43244FE1FCABD420038E63A /* Info.plist */,
+			);
+			path = SZColorHexTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +217,24 @@
 			productReference = 5839EE281FC7C7D60050DA5D /* SZColorHex.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E43244F91FCABD420038E63A /* SZColorHexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43245041FCABD420038E63A /* Build configuration list for PBXNativeTarget "SZColorHexTests" */;
+			buildPhases = (
+				E43244F61FCABD420038E63A /* Sources */,
+				E43244F71FCABD420038E63A /* Frameworks */,
+				E43244F81FCABD420038E63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E43245011FCABD420038E63A /* PBXTargetDependency */,
+			);
+			name = SZColorHexTests;
+			productName = SZColorHexTests;
+			productReference = E43244FA1FCABD420038E63A /* SZColorHexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,6 +249,10 @@
 						ProvisioningStyle = Automatic;
 					};
 					5839EE271FC7C7D60050DA5D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					E43244F91FCABD420038E63A = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -220,6 +273,7 @@
 			targets = (
 				5839EE0B1FC7C4310050DA5D /* SZColorHexDemo */,
 				5839EE271FC7C7D60050DA5D /* SZColorHex */,
+				E43244F91FCABD420038E63A /* SZColorHexTests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +290,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5839EE261FC7C7D60050DA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43244F81FCABD420038E63A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,6 +324,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E43244F61FCABD420038E63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43244FD1FCABD420038E63A /* SZColorHexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -270,6 +339,11 @@
 			isa = PBXTargetDependency;
 			target = 5839EE271FC7C7D60050DA5D /* SZColorHex */;
 			targetProxy = 5839EE2D1FC7C7D60050DA5D /* PBXContainerItemProxy */;
+		};
+		E43245011FCABD420038E63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5839EE271FC7C7D60050DA5D /* SZColorHex */;
+			targetProxy = E43245001FCABD420038E63A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -471,6 +545,32 @@
 			};
 			name = Release;
 		};
+		E43245021FCABD420038E63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2484Z5XMVT;
+				INFOPLIST_FILE = SZColorHexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.songzhou.SZColorHexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E43245031FCABD420038E63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2484Z5XMVT;
+				INFOPLIST_FILE = SZColorHexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.songzhou.SZColorHexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -497,6 +597,15 @@
 			buildConfigurations = (
 				5839EE321FC7C7D60050DA5D /* Debug */,
 				5839EE331FC7C7D60050DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43245041FCABD420038E63A /* Build configuration list for PBXNativeTarget "SZColorHexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43245021FCABD420038E63A /* Debug */,
+				E43245031FCABD420038E63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
