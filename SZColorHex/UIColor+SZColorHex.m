@@ -8,14 +8,15 @@
 
 #import "UIColor+SZColorHex.h"
 
+NS_ASSUME_NONNULL_BEGIN
 @implementation UIColor (SZColorHex)
 
-+ (UIColor *)colorFromHex:(NSUInteger)color {
-    NSUInteger rmd = 0xFF;
-    NSUInteger mask = 0xFF;
++ (UIColor *)colorFromHex:(uint32_t)color {
+    uint8_t rmd = 0xFF;
+    uint8_t mask = 0xFF;
     
-    NSUInteger step = 8;
-    NSUInteger length = 3;
+    uint8_t step = 8;
+    uint8_t length = 3;
     CGFloat r, g, b;
     r = g = b = 0;
     for (int i = 0; i < length; i++) {
@@ -39,4 +40,13 @@
     return [UIColor colorWithRed:r green:g blue:b alpha:1.0];
 }
 
++ (UIColor *)colorFromHexString:(NSString *)hexString {
+    unsigned int colorHex = 0;
+    
+    [[NSScanner scannerWithString:hexString] scanHexInt:&colorHex];
+    
+    return [UIColor colorFromHex:colorHex];
+}
+
 @end
+NS_ASSUME_NONNULL_END
