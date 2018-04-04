@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "SZColorHex"
-  s.version      = "0.1.0"
+  s.version      = "1.1.1"
   s.summary      = "color hex"
   s.homepage     = "https://github.com/HSK-song/ColorHex"
   s.license      = "MIT"
