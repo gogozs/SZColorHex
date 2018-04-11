@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
   s.name         = "SZColorHex"
   s.version      = "1.1.1"
   s.summary      = "color hex"
-  s.homepage     = "https://github.com/HSK-song/ColorHex"
+  s.homepage     = "https://github.com/gogozs/SZColorHex"
   s.license      = "MIT"
-  s.author       = { "Song Zhou" => "songzhou_hsk@163.com" }
+  s.author       = { "Song Zhou" => "zhousong1993@gmail.com" }
   s.platform     = :ios
   s.ios.deployment_target  = '8.0'
-  s.source       = { :git => "https://github.com/HSK-song/ColorHex.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/gogozs/SZColorHex.git", :tag => "#{s.version}" }
   s.source_files  = "SZColorHex"
   s.requires_arc = true
 end
