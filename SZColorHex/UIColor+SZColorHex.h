@@ -11,8 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 @interface UIColor (SZColorHex)
 
-
-
 /**
  return color from hex value
  
@@ -25,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  return color from hex string
 
- @param hexString color hex string (e.g., "0xE41B17")
+ @param hexString color hex string (e.g., "0xE41B17", "#E41B17")
  @return color from specfic hex string
  */
 + (UIColor *)colorFromHexString:(NSString *)hexString;

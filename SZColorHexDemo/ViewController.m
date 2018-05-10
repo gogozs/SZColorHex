@@ -10,6 +10,7 @@
 #import "SZColorHex.h"
 
 static const NSUInteger exampleColor = 0xE41B17;
+static NSString* exampleColorString = @"#E41B17";
 
 @interface ViewController ()
 
@@ -36,7 +37,8 @@ static const NSUInteger exampleColor = 0xE41B17;
     [super viewDidLoad];
     
     _exampleView.backgroundColor = [UIColor colorWithRed:228/255.0 green:27/255.0 blue:23/255.0 alpha:1.0];
-    _testView.backgroundColor = [UIColor colorFromHex:exampleColor];
+//    _testView.backgroundColor = [UIColor colorFromHex:exampleColor];
+    _testView.backgroundColor = [UIColor colorFromHexString:exampleColorString];
 }
 
 - (void)viewDidLayoutSubviews {

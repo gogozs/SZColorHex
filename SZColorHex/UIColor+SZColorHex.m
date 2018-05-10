@@ -17,33 +17,27 @@ NS_ASSUME_NONNULL_BEGIN
     
     uint8_t step = 8;
     uint8_t length = 3;
-    CGFloat r, g, b;
-    r = g = b = 0;
+    CGFloat rgbs[length];
+    
     for (int i = 0; i < length; i++) {
         NSUInteger offSet = step * i;
         CGFloat percent = (color >> offSet & mask) / (double)rmd;
-        switch (i) {
-            case 0: {
-                b = percent;
-                break;
-            }
-            case 1: {
-                g = percent;
-                break;
-            }
-            case 2: {
-                r = percent;
-            }
-        }
+        rgbs[i] = percent;
     }
     
-    return [UIColor colorWithRed:r green:g blue:b alpha:1.0];
+    return [UIColor colorWithRed:rgbs[2] green:rgbs[1] blue:rgbs[0] alpha:1.0];
 }
 
 + (UIColor *)colorFromHexString:(NSString *)hexString {
     unsigned int colorHex = 0;
+    NSString *hexValue = hexString;
     
-    [[NSScanner scannerWithString:hexString] scanHexInt:&colorHex];
+    if ([[hexString lowercaseString] hasPrefix:@"0x"]) {
+    } else if ([hexString hasPrefix:@"#"]) {
+        hexValue = [hexString substringFromIndex:1];
+    }
+    
+    [[NSScanner scannerWithString:hexValue] scanHexInt:&colorHex];
     
     return [UIColor colorFromHex:colorHex];
 }
